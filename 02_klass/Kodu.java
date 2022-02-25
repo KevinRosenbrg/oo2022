@@ -6,5 +6,7 @@ public class Kodu {
 		System.out.println(isik2.kondimine());
 		System.out.println(isik1.jooksmine());
 		System.out.println(isik2.jooksmine());
+		System.out.println(isik1.tostmine());
+		System.out.println(isik2.tostmine());
 	}
 }

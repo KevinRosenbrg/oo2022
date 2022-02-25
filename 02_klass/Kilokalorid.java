@@ -10,4 +10,8 @@ public class Kilokalorid {
 		Double kalorid = Integer.parseInt(andmed.substring(0,2)) * (9.8 * 3.5 * Integer.parseInt(andmed.substring(2,4))) / 200;
 		return kalorid;
 	}
+	public Double tostmine() {
+		Double kalorid = Integer.parseInt(andmed.substring(0,2)) * (25 * 3.5 * Integer.parseInt(andmed.substring(2,4))) / 200;
+		return kalorid;
+	}
 }
