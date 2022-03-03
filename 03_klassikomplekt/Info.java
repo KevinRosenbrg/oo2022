@@ -13,17 +13,8 @@ public class Info {
         this.hdd = hdd;
     }
 
-    public String getModel() {
-        return model;
-    }
-
-    public Arvuti(Info info, int maksumus){
-        this.info = info;
-        this.maksumus = maksumus;
-    }
-
-    @java.lang.Override
-    public java.lang.String toString() {
+    @Override
+    public String toString() {
         return "Info{" +
                 "model='" + model + '\'' +
                 ", processor='" + processor + '\'' +

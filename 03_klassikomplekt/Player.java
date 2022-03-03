@@ -1,11 +1,9 @@
 public class Player {
-    // (muutuja aktiivne) parem klõps -> refactor -> rename
     int coordinateY;
     int coordinateX;
-    Direction direction;
+    Direction direction; // 3-ndast kodutööst
     Item item;
 
-    // Constructor
     public Player(int worldHeight, int worldWidth) {
         this.coordinateY = generateRandomCoordinate(worldHeight);
         this.coordinateX = generateRandomCoordinate(worldWidth);
@@ -14,15 +12,14 @@ public class Player {
 
     public void addItem(Item item) {
         this.item = item;
-        System.out.println("Mangija sai eseme + " + item.itemType);
+        System.out.println("Mängija sai eseme + " + item.itemType);
     }
 
     public int generateRandomCoordinate(int worldSize) {
-        return (int) (Math.random()*(worldSize-2))+1;
+        return (int) ((Math.random()*(worldSize-2))+1); // cast
     }
 
     public void movePlayer(String input, int worldHeight, int worldWidth) {
-        // kontrollib ühte muutujat mingite väärtuste vastu
         switch (input) {
             case "a":
                 direction = Direction.LEFT;
@@ -59,22 +56,15 @@ public class Player {
                 }
                 break;
         }
-
-//            if (direction == Direction.LEFT && true) {
-//                playerCoordinateX--;
-//            } else if (direction == Direction.DOWN || input.equals("mihkel")) {
-//                playerCoordinateY++;
-//            } else if (direction == Direction.RIGHT) {
-//                playerCoordinateX++;
-//            } else if (direction == Direction.UP) {
-//                playerCoordinateY--;
-//            }
-
     }
 
+    @Override
+    public String toString() {
+        return "Player{" +
+                "coordinateY=" + coordinateY +
+                ", coordinateX=" + coordinateX +
+                ", direction=" + direction +
+                ", item=" + item +
+                '}';
+    }
 }
-
-// Tellimuse - id, tooted, kasutaja, aja
-// Kasutaja - frontendis registreerumise järgselt
-// Ühe toote
-// Kategooria
