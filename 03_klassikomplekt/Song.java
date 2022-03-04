@@ -14,10 +14,10 @@ public class Song {
     }
 
     public String toStrings() {
-        return "Song {" +
+        return "Song details... " +
                 "name: '" + name + '\'' +
                 ", artist: '" + artist + '\'' +
-                ", year: '" + year + '\'' + '}';
+                ", year: '" + year + '\'';
     }
     public String countYears() {
         int count = (curYear + 1900) - year;
