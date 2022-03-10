@@ -14,15 +14,17 @@ public class Klass {
     }
 
     public void setyCoords(int y1, int y2, int y3){
-        xCoords.add(y1);
-        xCoords.add(y2);
-        xCoords.add(y3);
+        yCoords.add(y1);
+        yCoords.add(y2);
+        yCoords.add(y3);
     }
 
-    // pooleli
-    //@Override
-    //public String toString() {
-        //return "Klass{" +
-    //}
+    @Override
+    public String toString() {
+        return "Klass{" +
+                "xCoords=" + xCoords +
+                ", yCoords=" + yCoords +
+                '}';
+    }
 
 }

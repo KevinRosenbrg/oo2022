@@ -8,7 +8,7 @@ public class FailiKirjutamine {
                 new FileWriter("valjund1.txt")
         );
         pw.println("teretere");
-        pw.print(" Juku");
+        pw.print("Juku");
         pw.print(" Kuku");
         pw.close();
     }
