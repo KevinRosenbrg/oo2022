@@ -17,7 +17,7 @@ public class AvgSong extends SongInfo implements SongObject{
     }
 
     @Override
-    public void songBy() {
+    public void songBy() { // add song and artist
         System.out.println(song + " by " + artist);
     }
 }
