@@ -1,0 +1,15 @@
+#addBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    margin-top: 15px;
+}
+
+#saveItem {
+    margin-top: 20px;
+    width: 100px;
+}
