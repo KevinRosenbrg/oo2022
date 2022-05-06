@@ -38,4 +38,7 @@ public class JoogiPudelTests {
         Assert.assertEquals(1.04, hind, 0.1);
     }
 
+
+
+
 }

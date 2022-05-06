@@ -30,4 +30,5 @@ public class Joogivaat {
         System.out.print("Villisid " + loendur + " jooki.");
         return loendur;
     }
+
 }

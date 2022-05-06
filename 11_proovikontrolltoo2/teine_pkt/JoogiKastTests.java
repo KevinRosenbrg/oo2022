@@ -68,4 +68,6 @@ public class JoogiKastTests {
 
         assertEquals(20.0, kogus, 0.1);
     }
+
+
 }

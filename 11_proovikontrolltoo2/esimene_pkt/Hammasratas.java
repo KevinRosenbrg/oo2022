@@ -8,4 +8,5 @@ public class Hammasratas {
         this.hambad = _hambad;
         this.suurus = hambad * mm;
     }
+
 }

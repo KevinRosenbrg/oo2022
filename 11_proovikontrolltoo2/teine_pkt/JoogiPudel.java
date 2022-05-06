@@ -29,4 +29,5 @@ public class JoogiPudel {
             return taaraMaksumus + jook.erikaal*jook.omahind;
         }
     }
+
 }

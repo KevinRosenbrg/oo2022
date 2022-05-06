@@ -21,4 +21,5 @@ public class Pendel {
     public double vonkePeriood() {
         return 2 * Math.PI * Math.sqrt(getPikkus()/9.8);
     }
+
 }

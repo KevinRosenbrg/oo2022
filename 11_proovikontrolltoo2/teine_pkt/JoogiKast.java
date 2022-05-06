@@ -51,4 +51,5 @@ public class JoogiKast {
         System.out.print("Villisid " + loendur + " jooki.");
         return loendur;
     }
+
 }
