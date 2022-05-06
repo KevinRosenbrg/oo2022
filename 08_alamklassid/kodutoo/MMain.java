@@ -4,25 +4,28 @@ public class MMain {
     public static void main(String[] args) {
 
         YourMan yourman = new YourMan();
+        ChopSuey chopsuey = new ChopSuey();
+        NotToday nottoday = new NotToday();
+
+        // nottoday.isPop();
         // yourman.isMusic();
         // yourman.isYourMan();
+        
         yourman.yearsAfterCreation();
         System.out.println("");
 
-        NotToday nottoday = new NotToday();
-        // nottoday.isPop();
         nottoday.yearsAfterCreation();
         System.out.println("");
 
-        ChopSuey chopsuey = new ChopSuey();
         chopsuey.yearsAfterCreation();
         System.out.println("");
 
         Rock rock = new Rock();
-        rock.whenRock();
         Pop pop = new Pop();
-        pop.whenPop();
         Country country = new Country();
+
+        rock.whenRock();
+        pop.whenPop();
         country.whenCountry();
 
         /* test code
